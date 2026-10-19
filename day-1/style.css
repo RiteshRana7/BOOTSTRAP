@@ -1,0 +1,18 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.main-section{
+    background-color: #005128;
+    height: 100vh;
+}
+.fill-primary-color{
+    color: #C4E93A;
+}
+.fill-primary-bgcolor{
+    background-color: #C4E93A;
+}
+.section-bgcolor{
+    background-color: #005128;
+}
