@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 } */
+ @media (max-width: 575.98px) {
+    .hero-image {
+        width: 80%;
+        height: auto;
+    }
+}
+.main-section {
+    min-height: 150vh;
+}
+
+@media (min-width: 1025px) {
+    .main-section {
+        min-height: 100vh;
+    }
+}
 
 .bg-primary{
     background-color: #005128;
