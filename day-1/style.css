@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 } */
+
+.bg-primary{
+    background-color: #005128;
+}
+.fg-primary{
+    color: #005128;
+}
+.bg-button{
+    background-color:#C4E93A;
+}
 .main-section{
     background-color: #005128;
     height: 100vh;
