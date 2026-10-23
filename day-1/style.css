@@ -18,6 +18,9 @@
         min-height: 100vh;
     }
 }
+.hero-image{
+  filter: drop-shadow(0 0 60px rgba(160 242 98 / 0.4));
+}
 
 .bg-primary{
     background-color: #005128;
@@ -40,4 +43,11 @@
 }
 .section-bgcolor{
     background-color: #005128;
+}
+.services-img{
+    height: 270px;
+    width: 100%;
+}
+.bg-light-green{
+    background-color: #EAF4E7;
 }
