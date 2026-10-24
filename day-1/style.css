@@ -11,6 +11,9 @@
     .hero-down-section{
         width: 100%;
     }
+    .image-4row {
+        width: 100%;
+    }
 }
 .main-section {
     min-height: 150vh;
@@ -53,4 +56,7 @@
 }
 .bg-light-green{
     background-color: #EAF4E7;
+}
+.fg-green{
+    color: #108A4D;
 }
