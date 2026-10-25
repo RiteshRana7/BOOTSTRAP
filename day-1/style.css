@@ -60,3 +60,8 @@
 .fg-green{
     color: #108A4D;
 }
+.card-1{
+    min-height: 450px;
+    width: 95%;
+    padding: 15px;
+}
