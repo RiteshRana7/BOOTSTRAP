@@ -325,15 +325,17 @@
     </div>
   </div>
 </section>
-<section class="container-fluid">
+<section class="container-fluid bg-light-green">
   <div class="container">
-    <div class="row">
-      <div class="col-5">
-        <p>BOOK YOUR SERVICES</p>
-        <h2>Get your Home Cleaned
-          Fast & Hassle-Fee</h2>
+    <div class="row justify-content-between">
+      <div class="xl:col-4 mt-7 mb-5 md:col-10 ">
+        <p class="fg-green-type fw-bold">BOOK YOUR SERVICES</p>
+        <h1>Get your Home Cleaned
+         <span class="fg-green-type">Fast & Hassle-Fee</span> 
+        </h1>
           <p>Fill out the form and our team will contact you to confirm your cleaning schedule.</p>
-            <div class="d-flex align-items-center">
+           <div>
+             <div class="d-flex align-items-center">
               <div class="me-6" >
                 <img class="img-height" src="./assets/bx-calendar-check.svg.png" alt="">
               </div>
@@ -359,19 +361,79 @@
                 <p class="mb-1">Flexible Scheduling</p>
             <p class="mb-4 fg-secondary ">Choose a time that works for you.</p>
               </div>
-            </div>
-            <div>
-              <div>
-                <p>Need Help?</p>
-                <p>Our support team is here for you!</p>
-              </div>
-              <div>
-                <button></button>
-              </div>
-            </div>
+            </div>  
+                <div class="help-card bg-white rounded-4 p-3 d-flex align-items-center justify-content-between mt-4">
 
+                  <div class="d-flex align-items-center">
+                    <div class="help-icon rounded-circle d-flex align-items-center justify-content-center me-3">
+                    <img src="./assets/bx-support.svg.png" alt="Support">
+                </div>
+                  <div>
+                  <h5 class="mb-1">Need Help?</h5>
+                  <p class="mb-0 fg-secondary">Our support team is here<br>for you!</p>
+              </div>
+            </div>
+          <button class="help-btn rounded-pill border-0 fg-white px-3 py-2">
+            <img class="h-10" src="./assets/bx-phone.svg (1).png" alt=""> +123-456-893
+        </button>
         </div>
-      <div class="col-7"></div>
+           </div>
+        </div>
+        <div class="col-7 mt-7 mb-5 ">
+          <div class="booking-form bg-white p-4 rounded-4">
+            <form>
+             <div class="row g-3">
+              
+               <div class="col-6">
+                  <label class="form-label">Full Name</label>
+                  <input type="text" class="form-control" placeholder="Ritesh Rana">
+                </div>
+              
+                <div class="col-6">
+                  <label class="form-label">Email Address</label>
+                  <input type="email" class="form-control" placeholder="riteshrana@gmail.com">
+                </div>
+              
+                <div class="col-6">
+                  <label class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" placeholder="704 123 3827">
+                </div>
+              
+                <div class="col-6">
+                  <label class="form-label">Select Date</label>
+                  <input type="date" class="form-control">
+                </div>
+              
+                <div class="col-6">
+                  <label class="form-label">Service Type</label>
+                  <select class="form-select">
+                   <option value="">Select a Service</option>
+                    <option>Home Cleaning</option>
+                    <option>Deep Cleaning</option>
+                    <option>Office Cleaning</option>
+                  </select>
+                </div>
+              
+                <div class="col-6">
+                  <label class="form-label">Location</label>
+                  <input type="text" class="form-control" placeholder="Your City">
+                </div>
+              
+                <div class="col-12">
+                  <label class="form-label">Message</label>
+                  <textarea class="form-control" rows="3"
+                    placeholder="Tell us more about your cleaning needs..."></textarea>
+                </div>
+              
+                <div class="col-12">
+                  <button type="submit" class="booking-btn w-100 rounded-pill border-0 fg-white py-3">
+                    Book My Cleaning    <i class="ri-arrow-right-long-line" ></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
     </div>
   </div>
 </section>
