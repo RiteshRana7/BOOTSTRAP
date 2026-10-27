@@ -328,13 +328,13 @@
 <section class="container-fluid bg-light-green">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="xl:col-4 mt-7 mb-5 md:col-10 ">
+      <div class=" slid-6 mt-7 mb-5 md:col-12 sm:col-12 sm:col-12 sm:text-center md:text-center xl:text-start  xl:col-4 ">
         <p class="fg-green-type fw-bold">BOOK YOUR SERVICES</p>
         <h1>Get your Home Cleaned
          <span class="fg-green-type">Fast & Hassle-Fee</span> 
         </h1>
           <p>Fill out the form and our team will contact you to confirm your cleaning schedule.</p>
-           <div>
+           <div class="d-none xl:d-block">
              <div class="d-flex align-items-center">
               <div class="me-6" >
                 <img class="img-height" src="./assets/bx-calendar-check.svg.png" alt="">
@@ -379,42 +379,42 @@
         </div>
            </div>
         </div>
-        <div class="col-7 mt-7 mb-5 ">
+        <div class=" xl:col-7  mt-7 mb-5 ">
           <div class="booking-form bg-white p-4 rounded-4">
             <form>
              <div class="row g-3">
               
-               <div class="col-6">
+               <div class="lg:col-6 md:col-6 sm:col-12">
                   <label class="form-label">Full Name</label>
                   <input type="text" class="form-control" placeholder="Ritesh Rana">
                 </div>
               
-                <div class="col-6">
+                <div class="lg:col-6 md:col-6 sm:col-12">
                   <label class="form-label">Email Address</label>
                   <input type="email" class="form-control" placeholder="riteshrana@gmail.com">
                 </div>
               
-                <div class="col-6">
+                <div class="lg:col-6 md:col-6 sm:col-12 ">
                   <label class="form-label">Phone Number</label>
                   <input type="tel" class="form-control" placeholder="704 123 3827">
                 </div>
               
-                <div class="col-6">
+                <div class="lg:col-6 md:col-6 sm:col-12">
                   <label class="form-label">Select Date</label>
                   <input type="date" class="form-control">
                 </div>
               
-                <div class="col-6">
+                <div class="lg:col-6 md:col-6 sm:col-12">
                   <label class="form-label">Service Type</label>
-                  <select class="form-select">
-                   <option value="">Select a Service</option>
+                  <select class="form-select w-100">
+                   <option value="form-lable">Select a Service</option>
                     <option>Home Cleaning</option>
                     <option>Deep Cleaning</option>
                     <option>Office Cleaning</option>
                   </select>
                 </div>
               
-                <div class="col-6">
+                <div class="md:col-6 lg:col-6  sm:col-12">
                   <label class="form-label">Location</label>
                   <input type="text" class="form-control" placeholder="Your City">
                 </div>
@@ -434,8 +434,67 @@
             </form>
           </div>
         </div>
+    </div>        
+<!-- 4 Responsive Feature Cards -->
+<div class="row bg-white rounded-3 align-items-center p-3 mb-5">
+
+  <!-- Card 1 -->
+  <div class="slid-7 col-6 md:col-6 lg:col-3 sm:col-12">
+   <div class="d-flex align-items-center justify-content-center sm:justify-content-start gap-2 border-end sm:border-end-0 md:border-end-0 p-2"> 
+    <div class="rounded-circle bg-light-green p-2">
+        <img src="./assets/boxicons_user-filled.png" alt="" class="img-height">
+      </div>
+      <div>
+        <p class="mb-1 fw-bold">70,000+</p>
+        <small class="fg-secondary">Happy Customers</small>
+      </div>
     </div>
   </div>
+
+  <!-- Card 2 -->
+  <div class="slid-7 col-6 md:col-6 lg:col-3 sm:col-12">
+    <div class="d-flex align-items-center justify-content-center sm:justify-content-start gap-2 border-end sm:border-end-0 md:border-end-0 p-2">
+      <div class="rounded-circle bg-light-green p-2">
+        <img src="./assets/material-symbols_star-rounded.png" alt="" class="img-height">
+      </div>
+      <div>
+        <p class="mb-1 fw-bold">4.9/5</p>
+        <small class="fg-secondary">Average Rating</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class=" slid-7 col-6 md:col-6 lg:col-3 sm:col-12">
+    <div class=" d-flex align-items-center justify-content-center sm:justify-content-start gap-2 border-end p-2">
+      <div class="rounded-circle bg-light-green p-2">
+        <img src="./assets/solar_shield-bold-duotone.png" alt="" class="img-height">
+      </div>
+      <div>
+        <p class="mb-1 fw-bold">100%</p>
+        <small class="fg-secondary">Satisfaction Guarantee</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class=" slid-7  col-6 md:col-6 lg:col-3 sm:col-12">
+    <div class="d-flex align-items-center justify-content-center sm:justify-content-start gap-2 p-2">
+      <div class="rounded-circle bg-light-green p-2">
+        <img src="./assets/material-symbols_nest-eco-leaf.png" alt="" class="img-height">
+      </div>
+      <div>
+        <p class="mb-1 fw-bold">Eco-Friendly</p>
+        <small class="fg-secondary">Cleaning Products</small>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+  </div>
+        
 </section>
 
     <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
