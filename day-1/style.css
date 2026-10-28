@@ -189,3 +189,44 @@
 .booking-section{
       min-height: 730px;
 }
+.clearnest-footer {
+  width: 100%;
+  max-width: 100%;
+  background-color: #073b30;
+  color: white;
+  padding: 40px 0 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.clearnest-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.clearnest-footer a {
+  color: #c6d8d1;
+  text-decoration: none;
+}
+
+.footer-heading {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-links li,
+.footer-contact p {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #45675e;
+  margin-top: 20px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
