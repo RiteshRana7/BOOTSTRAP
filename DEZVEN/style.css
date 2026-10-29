@@ -8,6 +8,9 @@
     position: relative;
     box-sizing: border-box;
 }
+.navbar-brand{
+    font-size: 25px;
+} 
 .girl-image {
     height: 100%;
     width: 80%;
@@ -28,7 +31,7 @@
     margin-inline: auto;
 }
 .container{
-    height: 100vh;
+    height: 80vh;
 }
 .girl-image {
     width: 100%;
@@ -52,9 +55,6 @@
         display: flex;
         justify-content: center;
     }
-    .hero-imagee{
-        margin-top: 50px;
-    }
 }
 @media (max-width:576px) {
     .row{
@@ -69,5 +69,23 @@
          border-radius: 180px 250px 0 180px;
     }
 }
-
-
+/* I used AI to create this background color effect, and I also understood how it works. */
+.section-for-bg {
+    min-height: 90vh;
+    padding: 20px 3%;
+    background: linear-gradient(
+        100deg,
+        #ffca05 0%,
+        #ffca05 15%,
+        #f1f2f6 15%,
+        #f1f2f6 70%,
+        #ef3425 70%,
+        #ef3425 100%
+    );
+}
+.hero-card {
+    min-height: calc(100vh - 40px);
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
