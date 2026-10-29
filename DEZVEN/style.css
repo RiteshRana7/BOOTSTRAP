@@ -23,15 +23,24 @@
     object-position: center;
     display: block;
 }
+.hero-imagee {
+    display: block;
+    margin-inline: auto;
+}
 .container{
     height: 100vh;
 }
-/* @media (max-width:576px) {
-    .text-section{
-        text-align: center;
-        width: 80%;
-    }
-} */
+.girl-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.girl-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
 @media (max-width:1280px) {
     .girl-frame{
         border: 0px;
@@ -47,6 +56,11 @@
         margin-top: 50px;
     }
 }
+@media (max-width:576px) {
+    .row{
+        flex-direction: column-reverse;
+    }
+}
 @media (min-width:1280px) {
     .girl-frame{
         border-radius: 200px 0 0 200px;
@@ -55,4 +69,5 @@
          border-radius: 180px 250px 0 180px;
     }
 }
+
 
