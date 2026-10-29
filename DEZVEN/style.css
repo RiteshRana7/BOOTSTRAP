@@ -3,7 +3,7 @@
     width: 100%;
     border: 14px solid #ed3b24;
     border-right: none;
-    border-radius: 200px 0 0 200px;
+    /* border-radius: 200px 0 0 200px; */
     padding: 12px;
     position: relative;
     box-sizing: border-box;
@@ -12,7 +12,7 @@
     height: 100%;
     width: 80%;
     border: 9px solid #222;
-    border-radius: 180px 250px 0 180px;
+    /* border-radius: 180px 250px 0 180px; */
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -26,3 +26,33 @@
 .container{
     height: 100vh;
 }
+/* @media (max-width:576px) {
+    .text-section{
+        text-align: center;
+        width: 80%;
+    }
+} */
+@media (max-width:1280px) {
+    .girl-frame{
+        border: 0px;
+    }
+    .girl-image{
+         border:0px;
+    }
+    .hero-imagee{
+        display: flex;
+        justify-content: center;
+    }
+    .hero-imagee{
+        margin-top: 50px;
+    }
+}
+@media (min-width:1280px) {
+    .girl-frame{
+        border-radius: 200px 0 0 200px;
+    }
+    .girl-image{
+         border-radius: 180px 250px 0 180px;
+    }
+}
+
