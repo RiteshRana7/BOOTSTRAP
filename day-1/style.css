@@ -1,8 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+
  @media (max-width: 575.98px) {
     .hero-image {
         width: 100%;
@@ -25,12 +21,24 @@
     justify-content: start;
     align-items: center;
     }
+
   
 }
 .main-section {
     min-height: 150vh;
 }
 
+@media (max-width: 576px) {
+        .secound-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .row > .d-flex > div:first-child {
+        width: 100%;
+    }
+}
 @media (min-width: 1025px) {
     .main-section {
         min-height: 100vh;
