@@ -34,9 +34,9 @@
         display: block;
     }
 
-    .row > .d-flex > div:first-child {
+    /* .row > .d-flex > div:first-child {
         width: 100%;
-    }
+    } */
 }
 @media (min-width: 1025px) {
     .main-section {
