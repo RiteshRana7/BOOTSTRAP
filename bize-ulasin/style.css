@@ -10,3 +10,10 @@ body{
     background-size: cover;
     margin: 0;
 }
+.button-hero-sec{
+    width: 80%;
+    height: 50px;
+}
+.h-80 {
+    height: 80vh !important;
+}
