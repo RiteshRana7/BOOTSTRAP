@@ -1,72 +1,140 @@
-    <!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <section class="hero-page">
-    <nav class="navbar lg:navbar-expand bg-transparent" >
-  <div class="container-fluid">
-   <div class="container">
-     <div class="d-flex justify-content-between w-100">
-    <div>
-     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-   </div>
-    <div>
-    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNavMenu" aria-controls="navbarNavMenu" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon" aria-hidden="true"></span>
-    </button>
-    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavMenu" aria-labelledby="navbarNavMenuLabel">
-      <div class="drawer-header">
-        <h5 class="drawer-title" id="navbarNavMenuLabel">Menu</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
-      </div>
-      <div class="drawer-body">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Çözüm ve Hizmetler</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ürünler</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Teknolojiler</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">İnsan Kaynakları</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Kurumsal</a>
-          </li>
-          <button class="rounded-4 bg-danger border-0 fg-white py-3 px-6">İletişim</button>
-        </ul>
-      </div>
-    </dialog>
-    </div>
-    </div>
-   </div>
-  </div>
-</nav>
-  <div class="container h-80">
-         <div class="row h-100">
-        <div class="sm:col-12 text-center sm:text-center  lg:col-6 lg:text-start  d-flex justify-content-center align-items-center ">
-         <div class=" col-10 ">
-           <h1 class="fs-4xl">Bilgi Teknolojilerinde23 Yıllık Tecrübe </h1>
-          <p class="my-6">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
-          <div class="position-relative w-100">
-            <input class="button-hero-sec border-0 rounded-4 px-4 " type="text" placeholder="Mail bultenimize kayit ol">
-            <button class="rounded-4 button-hero bg-danger border-0 fg-white py-3 px-6   position-absolute "  >Kayıt Ol</button>
-          </div>  
+    <section class="hero-page container-fluid">
+      <nav class="navbar lg:navbar-expand bg-transparent">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="d-flex justify-content-between w-100">
+              <div>
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              </div>
+              <div>
+                <button
+                  class="btn-icon navbar-toggler"
+                  type="button"
+                  data-bs-toggle="drawer"
+                  data-bs-target="#navbarNavMenu"
+                  aria-controls="navbarNavMenu"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+                <dialog
+                  class="drawer drawer-end"
+                  tabindex="-1"
+                  id="navbarNavMenu"
+                  aria-labelledby="navbarNavMenuLabel"
+                >
+                  <div class="drawer-header">
+                    <h5 class="drawer-title" id="navbarNavMenuLabel">Menu</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="drawer"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="drawer-body">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >Çözüm ve Hizmetler</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Ürünler</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Teknolojiler</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">İnsan Kaynakları</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Kurumsal</a>
+                      </li>
+                      <button
+                        class="rounded-4 bg-danger border-0 fg-white py-3 px-6"
+                      >
+                        İletişim
+                      </button>
+                    </ul>
+                  </div>
+                </dialog>
+              </div>
+            </div>
+          </div>
         </div>
+      </nav>
+      <div class="container h-80">
+        <div class="row h-100">
+          <div
+            class="sm:col-12 text-center sm:text-center lg:col-6 lg:text-start d-flex justify-content-center align-items-center"
+          >
+            <div class="col-10">
+              <h1 class="fs-4xl">Bilgi Teknolojilerinde23 Yıllık Tecrübe</h1>
+              <p class="my-6">
+                Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için
+                farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje
+                Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.
+              </p>
+              <div class="position-relative w-100">
+                <input
+                  class="button-hero-sec border-0 rounded-4 px-4"
+                  type="text"
+                  placeholder="Mail bultenimize kayit ol"
+                />
+                <button
+                  class="rounded-4 button-hero bg-danger border-0 fg-white py-3 px-6 position-absolute"
+                >
+                  Kayıt Ol
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
         </div>
-        <div class="col"></div>
       </div>
-  </div>
-</section>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    </section>
+    <section class="container-fluid">
+      <div class="container">
+       <div class=" col-8 mx-auto">
+         <h2 class="text-center" >Kalite ve Süreç Yönetimi</h2>
+        <p class="text-center">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
+       </div>
+        <div class="row">
+          <div class="col-4 text-center">
+            <img src="./assets/File.png" alt="">
+            <h3>Döküman Analizi</h3>
+            <p>Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
+          </div>
+           <div class="col-4 text-center">
+            <img src="./assets/Star.png" alt="">
+            <h3>Kabul ve Değerlendirme</h3>
+            <p>Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
