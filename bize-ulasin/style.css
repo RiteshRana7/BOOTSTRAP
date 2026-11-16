@@ -25,7 +25,15 @@ body{
     transform: translateY(-50%);
 }
 .secound-sec{
+    color: white;
     height: 380px;
-    width: 99%;
+    width: 100%;
+    padding: 0px 0px;
     background-image:url('./assets/image\ 2.png')
+}
+.cover-sec{
+    background-color: red;
+    height: 380px;
+    width: 100%;
+    opacity: 0.7;
 }
