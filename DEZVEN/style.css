@@ -3,7 +3,6 @@
     width: 100%;
     border: 14px solid #ed3b24;
     border-right: none;
-    /* border-radius: 200px 0 0 200px; */
     padding: 12px;
     position: relative;
     box-sizing: border-box;
@@ -15,7 +14,6 @@
     height: 100%;
     width: 80%;
     border: 9px solid #222;
-    /* border-radius: 180px 250px 0 180px; */
     overflow: hidden;
     box-sizing: border-box;
 }
